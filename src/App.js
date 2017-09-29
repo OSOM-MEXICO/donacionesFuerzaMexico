@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import ListaDonadores  from './listaDonadores/listaDonadores';
 class App extends Component {
@@ -15,11 +14,12 @@ class App extends Component {
           septiembre y 19 de septiembre.
         </p>
         <p className="ListaDonadores-intro">
-          Si tienes información que aporte a la lista favor escribe un mensaje en el <a href="https://docs.google.com/spreadsheets/d/1fCFg-SziSYTBDKJ5cVYMtb-3HL2lVg7_4usV6iPhbRc/edit#gid=1122797035" target="_blank" >Google Drive</a>
+          Si tienes información que aporte a la lista favor escribe un mensaje en el <strong><a href="https://docs.google.com/spreadsheets/d/1fCFg-SziSYTBDKJ5cVYMtb-3HL2lVg7_4usV6iPhbRc/edit#gid=1122797035" target="_blank" rel="noopener noreferrer" >Google Drive</a></strong>
         </p>
         <p className="ListaDonadores-intro">
-          Si tienes dudas, sugerencías o comentariós te invitamos a hacerlos haciendo un Issue en el <a href="https://github.com/OSOM-MEXICO/donacionesFuerzaMexico" target="_blank" >Github</a>
+          Si tienes dudas, sugerencías o comentariós te invitamos a hacerlos haciendo un Issue en el <strong><a href="https://github.com/OSOM-MEXICO/donacionesFuerzaMexico" target="_blank" rel="noopener noreferrer" >Github</a></strong>
         </p>
+        <br/>
         <ListaDonadores/>
       </div>
     );
