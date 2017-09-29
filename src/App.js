@@ -20,7 +20,6 @@ class App extends Component {
         <p className="ListaDonadores-intro">
           Si tienes dudas, sugerencías o comentariós te invitamos a hacerlos haciendo un Issue en el <a href="https://github.com/OSOM-MEXICO/donacionesFuerzaMexico" target="_blank" >Github</a>
         </p>
-        </p>
         <ListaDonadores/>
       </div>
     );
