@@ -19,7 +19,12 @@ class App extends Component {
         <p className="ListaDonadores-intro">
           Si tienes dudas, sugerencías o comentariós te invitamos a hacerlos haciendo un Issue en el <strong><a href="https://github.com/OSOM-MEXICO/donacionesFuerzaMexico" target="_blank" rel="noopener noreferrer" >Github</a></strong>
         </p>
+        <h2>No hay donativos pequeños sólo grandes intenciones</h2>
+        <p className="ListaDonadores-intro">
+          Puedes contribuir registrando tu donativo en: <strong><a href="https://goo.gl/forms/kRQrKgiFZfbLqIEb2" target="_blank" rel="noopener noreferrer" >Registrar donativo personal</a></strong>
+        </p>
         <br/>
+        <h2>Lista de donadores </h2>
         <ListaDonadores/>
       </div>
     );
