@@ -16,14 +16,10 @@ class App extends Component {
           <p>Para poder darle seguimiento a esta ayuda, queremos
             recopilar los anuncios públicos sobre dichas donaciones.
           </p>
-          <p className="">
-            Recopilación de los anunciós públicos sobre donacionas para
-            ayudar a las personas afectadas por los sismos del 7 de
-            septiembre y 19 de septiembre.
-          </p>
+
           <p className="ListaDonadores-intro">
-            Ya empezamos una lista pero necesitamos tu ayuda. Si tienes
-            información adicional escribe un mensaje en el
+            Ya empezamos una lista pero <strong>necesitamos tu ayuda.</strong> Si tienes
+            información adicional escribe un mensaje en el{' '}
             <strong>
               <a
                 href="https://docs.google.com/spreadsheets/d/1fCFg-SziSYTBDKJ5cVYMtb-3HL2lVg7_4usV6iPhbRc/edit#gid=1122797035"
@@ -34,19 +30,21 @@ class App extends Component {
           <p>Sugerimos encontrar un comunicado oficial (más allá de la
             nota o tweet), con el fin de identificar montos y
             destinatarios.</p>
-          <p className="ListaDonadores-intro">
-            Si tienes dudas, sugerencías o comentariós te invitamos a
-            hacerlos haciendo un Issue en el
-            <strong>
-              <a
-                href="https://github.com/OSOM-MEXICO/donacionesFuerzaMexico"
-                target="_blank"
-                rel="noopener noreferrer">Github</a>
-            </strong>
-          </p>
+            <p className="ListaDonadores-intro">
+              Si tienes dudas, sugerencías o comentariós te invitamos a
+              hacerlos haciendo un Issue en el{' '}
+              <strong>
+                 <a
+                  href="https://github.com/OSOM-MEXICO/donacionesFuerzaMexico"
+                  target="_blank"
+                  rel="noopener noreferrer">Github</a>
+              </strong>
+               {'. '}  O escribenos a <a href="mailto:donacionesFuerzaMexico@gmail.com">donacionesFuerzaMexico@gmail.com</a>
+            </p>
           <h2>No hay donativos pequeños sólo grandes intenciones</h2>
+  
           <p className="ListaDonadores-intro">
-            Puedes contribuir registrando tu donativo en:
+            Todos los donativos suman. Puedes contribuir registrando tu donativo en: {' '}
             <strong>
               <a
                 href="https://goo.gl/forms/kRQrKgiFZfbLqIEb2"
@@ -59,6 +57,10 @@ class App extends Component {
         <h2>Lista de donadores
         </h2>
         <ListaDonadores/>
+            <div id="seguimiento-donativos">
+
+        </div>
+
       </div>
     );
   }
