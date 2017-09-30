@@ -3,7 +3,7 @@ import './listaDonadores.css';
 import {lista} from '../data/datosDonacionesFuerzaMexico.js'
 class ListaDonadores extends Component {
   render() {
-    const headersFull = Object.keys(lista[0]);
+    //const headersFull = Object.keys(lista[0]);
     const headers = ["Empresa Donadora/ Donador", "Tipo", "Monto ", "Moneda", "Donación no monetaría ", "Destinatarios", "Referencias"];
     console.log(headers, lista);
     return (
@@ -20,7 +20,7 @@ class ListaDonadores extends Component {
             <tbody>
               {lista.map(donador => {
                 return (
-                  <tr key={donador.id}>
+                  <tr key={donador.Id}>
                     {headers.map(celda => {
                       let c = celda === "Monto " && donador[celda]
                         ? donador[celda].toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,')

@@ -26,3 +26,11 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+#seguimiento-donativos {
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+}
+#seguimiento-donativos p{
+  text-align: justify;
+}
