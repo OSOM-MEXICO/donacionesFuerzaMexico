@@ -1,0 +1,21 @@
+app{
+  background: blue;
+}
+.cuerpo-tabla{
+  margin: 0 10%;
+}
+tr td{
+  border: 0px;
+  border-top: 1px solid rgba(34,36,38,.1);
+  padding:3px;
+
+}
+tr:hover td{
+  background-color: rgba(130, 156, 255, 0.18);
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 80%;
+    margin: auto;
+}
