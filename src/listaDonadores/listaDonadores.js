@@ -27,7 +27,7 @@ class ListaDonadores extends Component {
                         : donador[celda];
 
                       if( celda ==="Referencias" && donador[celda]){
-                        c = (<a href={donador[celda]} target="_blank" rel="noopener noreferrer">Comunicado Oficial</a>)
+                        c = (<a href={donador[celda]} target="_blank" rel="noopener noreferrer">Referencia</a>)
                       }
                       if( celda ==="Empresa Donadora/ Donador" && donador[celda]&& donador["Twitter"]){
                         c =  (<div><span>{donador[celda]} (</span><a href={donador["Twitter"]} target="_blank" rel="noopener noreferrer">Twitter</a><span>)</span></div>)
