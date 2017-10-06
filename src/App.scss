@@ -1,3 +1,4 @@
+$mainColor:#5bb674;
 .App {
   text-align: center;
 }
@@ -6,7 +7,15 @@
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
-
+header{
+  background-color: $mainColor;
+  h1{
+    color:white;
+    text-transform: uppercase;
+    margin:0;
+    text-align: start;
+  }
+}
 .App-header {
   background-color: #222;
   height: 150px;
