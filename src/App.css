@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
 .App {
   text-align: center; }
 
@@ -11,7 +12,53 @@ header {
     color: white;
     text-transform: uppercase;
     margin: 0;
-    text-align: start; }
+    text-align: start;
+    font-weight: 200;
+    font-size: 2.7vw;
+    padding: 10px;
+    font-family: "Open Sans Condensed", sans-serif; }
+
+h2 {
+  margin: 0;
+  text-transform: uppercase; }
+  h2.subtitle {
+    color: #5bb674; }
+
+a,
+strong {
+  color: #5bb674; }
+
+div#intro {
+  position: relative;
+  background-color: #1a1a1a;
+  color: #eee;
+  padding: 20px; }
+  div#intro img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    z-index: 1; }
+  div#intro #bgOpacity {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.8); }
+  div#intro p {
+    line-height: 1.3;
+    font-family: sans-serif; }
+  div#intro div#seguimiento-donativos {
+    z-index: 100;
+    position: relative; }
+  div#intro div.seguimiento-donativos-texto {
+    z-index: 10; }
 
 .App-header {
   background-color: #222;
@@ -37,4 +84,4 @@ header {
   margin: auto; }
 
 #seguimiento-donativos p {
-  text-align: justify; }
+  text-align: center; }
